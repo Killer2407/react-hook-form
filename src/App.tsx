@@ -1,5 +1,6 @@
 import './App.css'
-import { EnhancedYoutubeForm } from './components/EnhancedYoutubeForm'
+import { ArrayYoutubeForm } from './components/ArrayYoutubeForm'
+// import { EnhancedYoutubeForm } from './components/EnhancedYoutubeForm'
 // import { YoutubeForm } from '../src/components/YoutubeForm'
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
   return (
     <div>
       {/* <YoutubeForm /> */}
-      <EnhancedYoutubeForm />
+      {/* <EnhancedYoutubeForm /> */}
+      <ArrayYoutubeForm />
     </div>
   )
 }
